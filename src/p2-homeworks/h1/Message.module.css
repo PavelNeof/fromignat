@@ -1,0 +1,67 @@
+.message {
+    margin-left: 20px;
+    width: 300px;
+    height: 59px;
+    padding-top: 10px;
+    background-color: greenyellow;
+
+    padding: 10px 10px 10px 10px;
+    position: relative;
+}
+
+.avatar {
+    background-color: #282c34;
+}
+
+.all {
+    background-color: darkgreen;
+    border-radius: 8px;
+    border-bottom-left-radius: 0;
+    float: right;
+    width: 235px;
+    height: 68px;
+    position: relative;
+    bottom: 16px;
+}
+
+.corner{
+width: 0;
+    height: 0;
+    border-top: 12px solid transparent;
+    border-right: 15px solid darkgreen;
+    position: relative;
+    left:52px;
+    top: 52px;
+}
+
+.img {
+    border-radius: 50%;
+    width: 50px;
+    height: auto;
+    float: left;
+    position: relative;
+    top: 8px;
+    right: 3px;
+}
+
+.text {
+    color: white;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.name {
+    color: mediumpurple;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.time {
+    float: right;
+    position: relative;
+    bottom: 15px;
+    right: 10px;
+    color: white;
+    opacity: 60%;
+}
