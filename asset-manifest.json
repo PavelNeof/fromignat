@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/fromignat/static/css/main.909d67ff.css",
+    "main.js": "/fromignat/static/js/main.262bed2c.js",
+    "index.html": "/fromignat/index.html",
+    "main.909d67ff.css.map": "/fromignat/static/css/main.909d67ff.css.map",
+    "main.262bed2c.js.map": "/fromignat/static/js/main.262bed2c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.909d67ff.css",
+    "static/js/main.262bed2c.js"
+  ]
+}
