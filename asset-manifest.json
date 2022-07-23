@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/fromignat/static/css/main.261f0c74.css",
-    "main.js": "/fromignat/static/js/main.6ccec306.js",
+    "main.css": "/fromignat/static/css/main.b22bd4ae.css",
+    "main.js": "/fromignat/static/js/main.0027999d.js",
     "index.html": "/fromignat/index.html",
-    "main.261f0c74.css.map": "/fromignat/static/css/main.261f0c74.css.map",
-    "main.6ccec306.js.map": "/fromignat/static/js/main.6ccec306.js.map"
+    "main.b22bd4ae.css.map": "/fromignat/static/css/main.b22bd4ae.css.map",
+    "main.0027999d.js.map": "/fromignat/static/js/main.0027999d.js.map"
   },
   "entrypoints": [
-    "static/css/main.261f0c74.css",
-    "static/js/main.6ccec306.js"
+    "static/css/main.b22bd4ae.css",
+    "static/js/main.0027999d.js"
   ]
 }
