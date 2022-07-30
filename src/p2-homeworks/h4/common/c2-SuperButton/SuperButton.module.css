@@ -6,6 +6,10 @@
     background: red;
 }
 
+.errorButton {
+    border: 1px solid red;
+}
+
 
 
 .floatingButton {
