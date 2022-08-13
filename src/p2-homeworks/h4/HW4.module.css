@@ -11,3 +11,13 @@
 .testSpanError {
     color: blue;
 }
+
+.tab {
+    height: 130px;
+    width: 150px;
+    background-color: #ebebee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #d0cecc;
+}

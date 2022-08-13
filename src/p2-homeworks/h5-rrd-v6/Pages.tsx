@@ -22,7 +22,7 @@ function Pages() {
 
                 в начале мы попадаем на страницу '/' и переходим сразу на страницу PRE_JUNIOR
 
-                <Route path={PATH.MAIN} element={<div> Chose button: </div>}/>
+                <Route path={PATH.MAIN} element={<div> Choose button: </div>}/>
                 <Route path={PATH.PRE_JUNIOR} element={<PreJunior/>}/>
                 <Route path={PATH.JUNIOR} element={<Junior/>}/>
                 <Route path={PATH.JUNIOR_PLUS} element={<JuniorPlus/>}/>

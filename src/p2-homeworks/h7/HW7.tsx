@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import SuperSelect from './common/c5-SuperSelect/SuperSelect'
 import SuperRadio from './common/c6-SuperRadio/SuperRadio'
+import s from "../h4/HW4.module.css";
 
 
 
@@ -10,7 +11,7 @@ function HW7() {
     const [value, onChangeOption] = useState(arr[1])
 
     return (
-        <div >
+        <div className={s.column}>
             <hr/>
             homeworks 7
 
