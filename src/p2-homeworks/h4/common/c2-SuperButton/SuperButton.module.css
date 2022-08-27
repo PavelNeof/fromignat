@@ -13,6 +13,7 @@
 
 
 .floatingButton {
+    margin: 2px;
     text-decoration: none;
     display: inline-block;
     position: relative;
