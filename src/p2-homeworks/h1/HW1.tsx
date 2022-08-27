@@ -1,6 +1,7 @@
 import React from 'react'
 import Message from "./Message";
-import m from './Message.module.css';
+import s from './Message.module.css'
+
 
 
 function HW1() {
@@ -13,7 +14,7 @@ function HW1() {
     }
 
     return (
-        <div className={m.message}>
+        <div className={s.center}>
 
 
 

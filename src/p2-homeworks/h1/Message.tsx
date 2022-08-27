@@ -10,11 +10,12 @@ type MessageType = {
 
 function Message(props: MessageType) {
     return (
-        <div>
-            <div className={m.avatar}>
-                <img src={props.avatar}
-                     className={m.img}/> </div>
+        <div className={m.message}>
+
+                <img src={props.avatar} alt={'avatar'} className={m.avatar}/>
+
             <div className={m.corner}></div>
+
             <div className={m.all}>
                 <div className={m.name}>  {props.name}</div>
                 <div className={m.text}>  {props.message}</div>

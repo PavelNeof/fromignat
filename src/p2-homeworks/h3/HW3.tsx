@@ -22,9 +22,11 @@ function HW3() {
     }
 
     return (
+        <div>
+        <hr/>
+    homeworks 3
         <div className={s.column}>
-            <hr/>
-            homeworks 3
+
 
             {/*should work (должно работать)*/}
             <GreetingContainer users={users} addUserCallback={addUserCallback}/>
@@ -40,10 +42,11 @@ function HW3() {
             )
             }
 
-            <hr/>
-            {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeGreeting/>*/}
-            <hr/>
+           {/* <hr/>
+            для личного творчества, могу проверить
+            <AlternativeGreeting/>
+            <hr/>*/}
+        </div>
         </div>
     )
 }

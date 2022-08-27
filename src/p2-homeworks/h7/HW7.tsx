@@ -10,10 +10,11 @@ const arr = ['x', 'y', 'z']
 function HW7() {
     const [value, onChangeOption] = useState(arr[1])
 
-    return (
+    return (<>
+        <hr/>
+        homeworks 7
         <div className={s.column}>
-            <hr/>
-            homeworks 7
+
 
             {/*should work (должно работать)*/}
             <div >
@@ -38,6 +39,7 @@ function HW7() {
             {/*<AlternativeSuperRadio/>*/}
             <hr/>
         </div>
+        </>
     )
 }
 

@@ -17,10 +17,11 @@ function HW6() {
 
     const isError = value.length < 1
 
-    return (
+    return (<>
+    <hr/>
+    homeworks 6
         <div className={s.column}>
-            <hr/>
-            homeworks 6
+
 
             {/*should work (должно работать)*/}
             <div >
@@ -39,6 +40,7 @@ function HW6() {
             {/*<AlternativeSuperEditableSpan/>*/}
             <hr/>
         </div>
+        </>
     )
 }
 

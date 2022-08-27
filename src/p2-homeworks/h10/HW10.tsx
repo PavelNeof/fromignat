@@ -24,9 +24,11 @@ function HW10() {
     };
 
     return (
-        <div className={s.column}>
+        <>
             <hr/>
-            homeworks 10
+            homeworks 10 redux
+        <div className={s.column}>
+
             <div className={s.tab}>
 
 
@@ -49,6 +51,7 @@ function HW10() {
             {/*<Alternative/>*/}
             <hr/>
         </div>
+        </>
     )
 }
 
