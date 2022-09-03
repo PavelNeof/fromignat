@@ -45,11 +45,11 @@ function HW11() {
                 </div>
 
             </div>
-            <hr/>
-            {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeSuperRange/>*/}
-            {/*<AlternativeSuperDoubleRange/>*/}
-            <hr/>
+           {/* <hr/>
+            для личного творчества, могу проверить
+            <AlternativeSuperRange/>
+            <AlternativeSuperDoubleRange/>
+            <hr/>*/}
         </div>
     )
 }
