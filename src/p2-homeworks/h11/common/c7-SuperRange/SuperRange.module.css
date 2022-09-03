@@ -1,3 +1,37 @@
-.range {
 
+.margin{
+    margin-bottom: 20px;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 250px;
+    height: 15px;
+    background: #ebebee;
+    outline: none;
+    border: 5px solid #2EE59D;
+    border-radius: 8px;
+}
+
+
+/* for chrome/safari */
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 60px;
+    background: #ebebee;
+    cursor: pointer;
+    border: 5px solid #2EE59D;
+    border-radius: 4px;
+}
+
+/* for firefox */
+.slider::-moz-range-thumb {
+    width: 20px;
+    height: 60px;
+    background: #524f4e;
+    cursor: pointer;
+    border: 5px solid #2EE59D;
+    border-radius: 4px;
 }
