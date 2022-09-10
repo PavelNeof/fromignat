@@ -47,13 +47,13 @@ function HW8() {
                 </div>
                 <div><SuperButton onClick={sortUp}>sortUp</SuperButton></div>
                 <div><SuperButton onClick={sortDown}>sortDown</SuperButton></div>
-                <div><SuperButton onClick={check}>check 18</SuperButton></div>
+                <div><SuperButton onClick={check}>check18</SuperButton></div>
 
 
-                <hr/>
-                {/*для личного творчества, могу проверить*/}
-                {/*<AlternativePeople/>*/}
-                <hr/>
+                {/*<hr/>
+                для личного творчества, могу проверить
+                <AlternativePeople/>
+                <hr/>*/}
             </div>
         </div>
     )

@@ -35,10 +35,10 @@ function HW6() {
             <SuperButton isDisabled={isError} onClick={handleSave}>save</SuperButton>
             <SuperButton onClick={handleRestore}>restore</SuperButton>
 
-            <hr/>
-            {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeSuperEditableSpan/>*/}
-            <hr/>
+           {/* <hr/>
+            для личного творчества, могу проверить
+            <AlternativeSuperEditableSpan/>
+            <hr/>*/}
         </div>
         </>
     )

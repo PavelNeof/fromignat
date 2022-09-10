@@ -21,3 +21,32 @@
 .some-text {
     color: darkslateblue;
 }
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gradient {
+background: linear-gradient(to bottom right, blue, pink);
+}
+
+.rainbow {
+    background: linear-gradient(to right, #f00, #ffa500, #ff0, #008000, #00f, #4b0082, #ee82ee);
+}
+
+.tablecloth {
+    background-size: 50px 50px;
+    background-color: #ddd;
+    background-image: -webkit-linear-gradient(transparent 50%, rgba(0, 108, 21, .5) 50%, rgba(0, 108, 21, .5)),
+    -webkit-linear-gradient(0deg, transparent 50%, rgba(0, 108, 21, .5) 50%, rgba(0, 108, 21, .5));
+    background-image: -moz-linear-gradient(transparent 50%, rgba(0, 108, 21, .5) 50%, rgba(0, 108, 21, .5)),
+    -moz-linear-gradient(0deg, transparent 50%, rgba(0, 108, 21, .5) 50%, rgba(0, 108, 21, .5));
+    background-image: linear-gradient(transparent 50%, rgba(0, 108, 21, .5) 50%, rgba(0, 108, 21, .5)),
+    linear-gradient(90deg, transparent 50%, rgba(0, 108, 21, .5) 50%, rgba(0, 108, 21, .5));
+}
+
+.flower {
+    height: 453px;
+    background: linear-gradient(45deg, rgba(103, 0, 31, .8), rgba(34, 101, 163, .5)), url(https://html5book.ru/wp-content/uploads/2016/12/photo-8.jpg);
+    background-size: cover;
+}
