@@ -3,14 +3,14 @@ import {useDispatch, useSelector} from "react-redux";
 
 import {CreateRequestTC} from "./requestReducer";
 import {AppStoreType} from "../h10/bll/store";
+import s from './HW13.module.css'
 
 
 export const Button = () => {
 
     const dispatch = useDispatch()
-    const success = useSelector<AppStoreType, boolean>(state => state.request.success)
-    function onClickHandler() {
 
+    function onClickHandler() {
         dispatch<any>(CreateRequestTC(true))
     }
     // function onClickHandlerOff() {
@@ -19,7 +19,7 @@ export const Button = () => {
     // }
     return (
         <div>
-            <button onClick={onClickHandler}>click</button>
+            <button onClick={onClickHandler} className={s.button}>click</button>
             {/*<button onClick={onClickHandlerOff}>off</button>*/}
         </div>
     )
@@ -27,16 +27,19 @@ export const Button = () => {
 
 export const Checkbox = () => {
     const success = useSelector<AppStoreType, boolean>(state => state.request.success)
-    console.log('success', success)
+    //console.log('success', success)
 
-    const onClickHandler = (e:ChangeEvent<HTMLInputElement>) => {
-        console.log(e.currentTarget.value)
-       /// e===success ? dispatch<any>(CreateRequestTC(false)) : success
+    const plug = (e:ChangeEvent<HTMLInputElement>) => {
     }
 
     return (
-        <div>
-            <input type={'checkbox'} onChange={onClickHandler} checked={success}/>
+        <div className={s.centre}>
+            <label className={s.checkboxStyleD}>
+                <input type={'checkbox'} onChange={plug} checked={success} className={s.checkbox}/>
+                <div className={s.checkboxCheckmark}></div>
+                <div className={s.checkboxBody}>Style D</div>
+            </label>
+
         </div>
     )
 }
